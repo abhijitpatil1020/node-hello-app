@@ -1,6 +1,6 @@
 # node-hello-app
-🚀 A simple Node.js "Hello World" application deployed on Kubernetes using Helm and exposed via Nginx Ingress.  Includes Dockerfile, Helm chart, and deployment instructions. Demonstrates app updates, rollbacks, and cleanup.
-
+ A simple Node.js "Hello World" application deployed on Kubernetes using Helm and exposed via Nginx Ingress.  Includes Dockerfile, Helm chart, and deployment instructions. Demonstrates app updates, rollbacks, and cleanup.
+#steps/commands
 Build Docker Image:
  docker build -t node-hello:v1 .
 
@@ -36,7 +36,7 @@ Delete Minikube Cluster:
 minikube delete --all
 
 
-Production Considerations:
+#Production Considerations:
 
 Push images to DockerHub/ECR instead of using local images.
 Configure Horizontal Pod Autoscaler (HPA).
